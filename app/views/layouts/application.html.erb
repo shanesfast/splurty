@@ -12,21 +12,23 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          HIT
-          <br />
-          DEM
-          <br />
-          KEYS
-        </div>
+        <%= link_to root_path do %>
+          <div class="circle">
+            <br />
+            HIT
+            <br />
+            DEM
+            <br />
+            KEYS
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Splurting out unsolicited advice since 2019!
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
-        <%= link_to 'About', '#' %>
+        <%= link_to 'Contribute', new_quote_path, class: 'links' %>
+        <%= link_to 'About', '#', class: 'links' %>
       </div>
     </header>
 
@@ -42,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+            <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">Shane Quick</a><br />
