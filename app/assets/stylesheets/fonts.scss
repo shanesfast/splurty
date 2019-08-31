@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'exo_2black';
-    src: url('exo2-black-webfont.woff2') format('woff2'),
-         url('exo2-black-webfont.woff') format('woff');
+    src: asset-url('exo2-black-webfont.woff2') format('woff2'),
+         asset-url('exo2-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'exo_2black_italic';
-    src: url('exo2-blackitalic-webfont.woff2') format('woff2'),
-         url('exo2-blackitalic-webfont.woff') format('woff');
+    src: asset-url('exo2-blackitalic-webfont.woff2') format('woff2'),
+         asset-url('exo2-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
