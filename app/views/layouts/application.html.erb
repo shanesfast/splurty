@@ -11,7 +11,7 @@
 
   <body>
     <header class="row">
-      <div class="col-3">
+      <div class="col-4">
         <%= link_to root_path do %>
           <div class="circle">
             <br />
@@ -23,10 +23,10 @@
           </div>
         <% end %>
       </div>
-      <div class="col col-sm-4 hidden-xs-down slogan">
+      <div class="col-4 col-sm-4 hidden-xs-down slogan">
         Splurting out nonesense since 2019!
       </div>
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-4 col-sm-4 links">
         <!-- BUtton trigger modal -->
         <%= link_to 'Contribute', new_quote_path, class: 'links-margin', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path, class: 'links-margin' %>
@@ -75,7 +75,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6">
-            <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+            <%= link_to "This isn't enough, I need more", quotes_path, class: 'next-quote' %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
             Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">Shane Quick</a><br />
