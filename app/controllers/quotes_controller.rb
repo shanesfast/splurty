@@ -1,6 +1,6 @@
 class QuotesController < ApplicationController
   def index
-    @quote = Quote.limit(1).order(Arel.sql("RANDOM()")).first # Using Are.sql() as recommended by Rails to prevent error message in console. 
+    @quote = Quote.order(Arel.sql("RANDOM()")).first # Using Arel.sql() as recommended by Rails to prevent error message in console.
   end
 
   def create
@@ -12,7 +12,6 @@ class QuotesController < ApplicationController
   end
 
   def about
-
   end
 
   private
