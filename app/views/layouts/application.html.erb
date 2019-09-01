@@ -7,6 +7,7 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="turbolinks-cache-control" content="no-cache">
   </head>
 
   <body>
@@ -75,7 +76,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6">
-            <%= link_to "This isn't enough, I need more", quotes_path, class: 'next-quote' %>
+            <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote', 'data-turbolinks': false %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
             Proudly hacked by <a href="https://github.com/shanesfast">Shane Quick</a><br />
