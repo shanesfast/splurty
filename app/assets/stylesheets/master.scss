@@ -32,6 +32,22 @@
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
+.modal h4 {
+  font-family: 'exo_2black', sans-serif;
+}
+
+.create-btn-color {
+  background-color: #f84342;
+  color: #fff;
+  border-color: #000;
+}
+
+.create-btn-color:hover {
+  background-color: #1eaf3f;
+  color: #000;
+  border-color: #fff;
+}
+
 .slogan {
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   padding-top: 50px;
