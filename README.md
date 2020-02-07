@@ -1,24 +1,26 @@
-# README
+# SPLURTY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application is a quote generator which is fine-tuned to spit out funny things that may not actually add value to your life but may add a chuckle or two to your day. Simply click the link "I need more" link to randomly generate a quote. You can also add to the quotes by clicking on the "contribute" link as the top-right of the page. Feel free to fork the project and make it your own!  
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Made with *Ruby 2.5.3* and *Rails ~> 5.2.1*
+Dependencies managed with *Bundler version 1.17.1*
 
-* System dependencies
+Run:
+```bash
+bundle install
+```
+..to install dependencies. 
 
-* Configuration
+Then run the following commands to build the database:
 
-* Database creation
+```ruby
+rake db:create
+rake db:schema:load
+```
 
-* Database initialization
+That's it! Make it your own. 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
