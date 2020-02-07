@@ -4,7 +4,7 @@ This web application is a quote generator which is fine-tuned to spit out funny 
 
 ## Installation
 
-Made with `Ruby 2.5.3` and `Rails ~> 5.2.1`
+Made with `Ruby 2.5.3` and `Rails ~> 5.2.1`<br />
 Dependencies managed with `Bundler version 1.17.1`
 
 Run:
