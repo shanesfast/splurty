@@ -1,5 +1,7 @@
 # SPLURTY
 
+![Splurty](https://i.imgur.com/4QDibJL.png)
+
 This web application is a quote generator which is fine-tuned to spit out funny things that may not actually add value to your life but may add a chuckle or two to your day. Simply click the link "I need more" link to randomly generate a quote. You can also add to the quotes by clicking on the "contribute" link as the top-right of the page. Feel free to fork the project and make it your own!  
 
 ## Installation
